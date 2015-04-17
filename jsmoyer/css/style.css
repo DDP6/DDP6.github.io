@@ -1,0 +1,26 @@
+#computer {
+	text-align: center;
+	font-size: 50px;
+}
+#decision {
+	text-align: center;
+	font-size: 50px;
+}
+#buttons {
+	display: block;
+	margin-left: 45%;
+	margin-right: 44%;
+}
+#rock {
+	visibility: hidden;
+}
+#paper { 
+	visibility: hidden;
+}
+#scissors {
+	visibility: hidden;
+}
+.button {
+	height: 100px;
+	width: 100px;
+}
