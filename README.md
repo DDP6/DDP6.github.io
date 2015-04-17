@@ -1,2 +1,2 @@
-# DDP1.github.io
-Hosting Pages for Period 1
+# DDP6.github.io
+Hosting Pages for Period 6
