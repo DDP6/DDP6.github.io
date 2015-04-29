@@ -1,0 +1,23 @@
+h1{
+	
+	border: solid black 5px;
+	border-radius: 10px;
+	background-color:#33CCFF;
+	text-align: center;
+}
+body{
+	background-color: #143D66;
+}
+p{
+	
+	border: solid black 5px;
+	border-radius: 10px;
+	background-color:#33CCFF;
+	text-align: center;
+}
+img{
+
+	border: solid black 5px;
+	border-radius: 55px;
+	
+}
