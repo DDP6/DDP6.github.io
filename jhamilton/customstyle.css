@@ -1,3 +1,36 @@
+.title {
+	border-radius: 10px;
+	border: solid black 10px;
+	background-color: blue;
+	color: yellow;
+}
 .center {
 	text-align: center;
+}
+
+.link {
+	color: blue;
+	border: solid black 5px;
+	background-color: yellow;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	-webkit-transition: all 0.6s ease-in-out 0s;
+	-moz-transition: all 0.6s ease-in-out 0s;
+	-transition: all 0.6s ease-in-out 0s;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-transform: translateZ(0);
+}
+
+.link:hover {
+	color: blue;
+	background-color: yellow;
+}
+
+.link:visited {
+	text-decoration: none;
+}
+
+.body {
+	background-color: purple;
 }
