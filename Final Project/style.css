@@ -1,0 +1,64 @@
+header {
+	background: #F07057;
+	height: 300px;
+	padding-top: 50px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 0;
+}
+
+
+
+
+.main-nav {
+
+}
+
+.main-nav a:first-child {
+	border-top: 2px solid #F07057;
+}
+
+.main-nav a {
+	margin-left: 50px;
+	text-decoration: none;
+	color:black;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.main-nav a:visited {
+	margin-left: 50px;
+	text-decoration: none;
+	color:black;
+}
+
+.main-nav a:hover {
+	margin-left: 50px;
+	text-decoration: none;
+	color: black;
+}
+
+.main {
+	margin-left: 400px;
+	background: #F2F2E8;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 50%;
+	word-wrap: break-word;
+	min-height: 20px;
+	display: block;
+}
+
+.main h2 {
+	column-span: all;
+}
+
+body {
+	margin: 0;
+}
+
+.main-nav, .main {
+	position: relative;
+}
+
