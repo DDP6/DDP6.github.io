@@ -1,0 +1,35 @@
+h1 {
+	text-align: center;
+
+	border: solid black 10px;
+	border-radius: 20px;
+	background-color: white;
+	width: 400px;
+	height: 45px;
+
+}
+
+img{
+	width: 150px;
+	height: 100px;
+
+}
+
+
+
+body{
+	background-color: background: rgba(212,228,239,1);
+background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
+background: -webkit-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+
+} 
+
+#userchoice{
+	border:solid black 5px;
+	text-align: center;
+
+
+
+}
+	
