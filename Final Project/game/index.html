@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Start</title>
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<header>
+  	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  		<div class="container-fluid">
+    	<div class="navbar-header">
+      		<a class="navbar-brand" href="#">Final Project</a>
+    	</div>
+    	<div>
+      		<ul class="nav navbar-nav">
+        		<li class="active"><a href="../index.html">About Me</a></li>
+        		<li class="dropdown">
+          		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Go To<span class="caret"></span></a>
+          			<ul class="dropdown-menu">
+            			<li><a href="../index.html">About Me</a></li>
+            			<li><a href="../journal/index.html">Daily Journal</a></li>
+            			<li><a href="index.html">Rock Paper Scissors</a></li>
+          			</ul>
+        		</li>
+      		</ul>
+    	</div>
+  		</div>
+  	</nav>
+</header>
+
+<body>
+
+	<div id="head">
+
+		<h1>Rock, Paper, Scissors!</h1>
+
+	</div>
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-xs-4 col-sm-4 col-md-4" id="Computer"></div>
+
+			<div class="col-xs-4 col-sm-4 col-md-4" id="results"></div>
+
+			<div class="col-xs-4 col-sm-4 col-md-4" id="Userc"></div>
+
+		</div>
+
+	</div>
+
+		<button id="one" onclick=pickRock()>Rock</button>
+
+		<button onclick=pickPaper()>Paper</button>
+
+		<button onclick=pickScissors()>Scissors</button>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>

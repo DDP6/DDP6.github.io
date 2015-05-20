@@ -1,0 +1,71 @@
+html {
+	background-color: black;
+}
+
+body {
+	background-color: #7E7E7E;
+	border: solid black 10px;
+	padding-top: 50px;
+}
+h1 {
+	font-family: "Monospace";
+	font-size: 250%;
+	text-align: center;
+	color: black;
+	text-decoration: underline;
+	font-style: italic;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 125%;
+}
+
+.log {
+	font-size: 2.5vmin;
+	color: #4B4A4A;
+	background-color: #7E7E7E;
+	margin: 5%;
+	margin-left: 1px;
+	margin-right: 1px;
+	-webkit-transition: all 0.5s ease-in-out 0s;
+  	-moz-transition: all 2.5s ease-in-out 0s;
+ 	transition: all 0.5s ease-in-out 0s;
+ 	-webkit-transform: translateZ(0);
+ 	-moz-transform: translateZ(0);
+ 	transform: translateZ(0);
+}
+
+.log:hover {
+	background-color: #262525;
+	border: solid black 10px;
+	border-radius: 25px;
+	color: white;
+}
+
+
+.log a {
+	color: #C0C0C0;
+	text-decoration: none;
+	-webkit-transition: all 0.6s ease-in-out 0s;
+  	-moz-transition: all 0.6s ease-in-out 0s;
+ 	transition: all 0.6s ease-in-out 0s;
+ 	-webkit-transform: translateZ(0);
+ 	-moz-transform: translateZ(0);
+ 	transform: translateZ(0);
+}
+
+a:hover {
+	text-decoration: none;
+	color: purple;
+}
+
+a:visited {
+	text-decoration: none;
+}
