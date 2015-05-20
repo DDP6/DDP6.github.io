@@ -1,66 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap Grid Examples</title>
+	<head>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="row">
+          	<div class="col-xs-12">
+				<h1 id="Top">The Main Space/Henry Nguyen's Final Project</h1>
+			</div>
+		</div>	
+		<div class="container">
+			<div class="row">
+				<div class="navBar">
+					<div class="col-xs-4 col-sm-4 col-md-4">	
+						<a href="index.html">About</a>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4">
+						<a href="journal.html">Journal</a>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4">
+						<a href="rpsGame.html">Game</a>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<h2 class="text-center">About The Author</h2>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<p class="entry">Here you will find the culmination of an entire school year of coding experience as come to, so sit back and click through what this website has to offer after you are finished reading this important beginning information. All here for the low, low price of $9.99/month for the next 48 months with no interest. Now look at this majestic looking photos at places where everyone including myself. Once you are finished with all that you can welcome to insert time sensative information at the bottom of the page to receive "TOP SECRET INFORMATION!!!!!"</p>
+			<div class="col-xs-6 col-sm-6 col-md-6" "frontPhotos">
+            	<img src="http://www.photo-wallpaper.net/images/15201-landscape-sunset-sunrise-landscapes-wallpaper-with-1920x1080.jpg" class="img-responsive" alt="Responsive image">
+          	</div>
+          	<div class="col-xs-6 col-sm-6 col-md-6" "frontPhotos">
+            	<img src="http://wallpoper.com/images/00/40/08/45/landscapes-dock_00400845.jpg" class="img-responsive" alt="Responsive image">
+          	</div>
+          	<div class="col-xs-6 col-sm-6 col-md-6" "frontPhotos">
+            	<img src="http://www.hdwallpapers.in/wallpapers/nordic_landscapes-1920x1080.jpg" class="img-responsive" alt="Responsive image">
+          	</div>	
+          	<div class="col-xs-6 col-sm-6 col-md-6" "frontPhotos">
+            	<img src="http://wallpoper.com/images/00/37/74/01/japan-landscapes_00377401.jpg" class="img-responsive" alt="Responsive image">
+          	</div>			
+		</div>
+		<h4>Enter your DoB to access top secret information</h4>
+		<div class="container">
+		<form name="practice" action="action">
+			<div class="col-xs-4 col-sm-4 col-md-4">
+	   			<label for="inputMonth">Month</label>
+	    		<input type="text" name="inputMonth" placeholder="January">
+	    	</div>
+	    	<div class="col-xs-4 col-sm-4 col-md-4">	
+	    		<label for="inputDay">Day</label>
+	    		<input type="text" name="inputDay" placeholder="1">
+	    	</div>
+	    	<div class="col-xs-4 col-sm-4 col-md-4">	
+		  		<label for="inputYear">Year</label>
+		  		<input for="text" name="inputYear" placeholder="2000">
+		  	</div>
+		  	<div class="col-xs-12">
+  				<input type="submit" name="submit" value="Submit"></input>
+  			</div>
+  			<hr>
+  			<div class="col-xs-12">
+  				<p id="displayText"></p>
+  			</div>		
+		</form>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<hr>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h1 class="text-center">Grid Practice</h1>
-          </div> 
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 col-md-4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus faucibus sollicitudin. Vestibulum pellentesque pretium nulla ac scelerisque. Maecenas condimentum ultrices consectetur. Morbi ut auctor elit, a eleifend leo. Nulla sit amet urna condimentum, interdum ligula at, bibendum ipsum. Nunc laoreet a nunc eget elementum. Nullam quam magna, imperdiet id cursus a, pellentesque a nibh. Donec lectus dolor, accumsan suscipit porta ac, iaculis at dolor. Nunc eleifend quis nisl ut interdum. Duis id ligula lorem.</p>
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-4">
-            <p>Etiam posuere, lacus at ullamcorper rhoncus, enim erat eleifend arcu, ut condimentum ex magna eget augue. Integer suscipit orci vel mauris fermentum eleifend. Nam varius lacinia lacus et blandit. Vestibulum scelerisque, massa sit amet gravida egestas, ligula dui rhoncus nunc, id mattis ipsum neque et justo. Sed pharetra, lacus quis aliquet feugiat, mauris tortor fermentum tellus, ut tincidunt nulla urna vitae est. Nulla augue nisl, fermentum ac erat quis, suscipit tincidunt elit. Aliquam eget pharetra purus. Etiam fermentum ipsum vitae orci hendrerit dapibus. Aliquam condimentum, eros eget euismod rutrum, massa risus cursus ligula, a ultricies elit dolor maximus ex. Fusce quam quam, efficitur quis libero a, luctus hendrerit nibh.</p>
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-4">
-            <p>Vestibulum nec mollis velit. Integer enim velit, consequat bibendum condimentum quis, bibendum sit amet orci. Donec a ante est. Curabitur efficitur libero ut rhoncus pellentesque. Donec nec nunc non dui molestie pharetra. In ullamcorper sagittis dolor, sit amet ultricies dolor rhoncus non. Suspendisse a interdum turpis. Ut non volutpat erat. Proin congue sapien facilisis est fermentum, vel eleifend neque tincidunt. Nam orci arcu, dignissim ac varius id, imperdiet a sapien.</p>
-          </div>    
-        </div>
-        <div class="row">
-          <div class="col-xs-3 col-sm-3 col-md-3">
-            <img src="http://cdn.twitrcovers.com/wp-content/uploads/2013/02/Water-Landscapes%EF%BC%8Dl.jpg" class="img-responsive" alt="Responsive image">
-          </div>
-          <div class="col-xs-3 col-sm-3 col-md-3">  
-            <img src="http://learnmyshot.com/wp-content/uploads/living_landscapes_ebook-65.jpg" class="img-responsive" alt="Responsive image"> 
-          </div>
-          <div class="col-xs-3 col-sm-3 col-md-3">
-            <img src="http://traveling-earth.com/wp-content/uploads/2014/04/Glacier-National-Park-Montana-1.jpg" class="img-responsive" alt="Responsive image">
-          </div>
-          <div class="col-xs-3 col-sm-3 col-md-3">
-            <img src="http://www.wallpapernation.net/images/21498-most-beautiful-landscapes-in-the-world.jpg" class="img-responsive" alt="Responsive image">
-          </div>     
-        </div>
-        <div class="row">
-          <div class="col-xs-6 col-sm-6 col-md-6">
-            <p>Aliquam facilisis ullamcorper eros non semper. Vivamus eget ligula sodales, tincidunt arcu in, convallis lorem. Curabitur rutrum vestibulum bibendum. Maecenas at arcu id justo lobortis tempor. Pellentesque imperdiet arcu at dui dictum posuere. Vestibulum facilisis aliquet justo, ut ornare nibh volutpat non. Aliquam iaculis id nisi ut accumsan. Morbi nec orci non diam vehicula cursus pretium id nunc. Nam sollicitudin faucibus scelerisque. Sed pulvinar non enim id tincidunt. Curabitur rutrum, dui at eleifend mattis, est nibh pretium ante, quis aliquam felis ipsum sit amet neque. Vestibulum fringilla felis quis libero sodales mollis a ut ante.</p>
-          </div>
-          <div class="col-xs-6 col-sm-6 col-md-6">
-            <p>Nullam nunc lectus, vehicula vel cursus eu, facilisis in dolor. Sed eu pellentesque turpis. Phasellus et scelerisque risus, vel laoreet erat. Aenean pretium, nunc ut efficitur vehicula, purus diam mattis dui, ut interdum lectus elit et tortor. Phasellus mauris mi, iaculis ac consectetur sed, mattis et neque. Sed aliquam, ex pellentesque molestie facilisis, magna sem suscipit elit, a viverra odio eros et erat. Praesent ut turpis euismod, rutrum nibh eget, faucibus diam. Mauris sollicitudin ipsum eget augue consequat aliquam ac eu mauris. Integer ac purus feugiat ex commodo finibus. Ut imperdiet venenatis dapibus. Quisque vitae rutrum elit. Proin varius, dolor sed hendrerit cursus, sapien risus lacinia nulla, eu ullamcorper erat risus luctus erat. Duis condimentum justo turpis, ac efficitur elit feugiat vitae. Quisque consequat purus nec dolor placerat, id malesuada nisi varius.</p>
-          </div>       
-    </div> 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scriptAbout.js"></script>	
+	</body>
+	

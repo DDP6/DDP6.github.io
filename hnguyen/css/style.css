@@ -1,0 +1,51 @@
+img{
+	width:100%;
+	height:100%;
+	margin:5px;
+}
+.heading {
+	font-size: 300%;
+	text-align: center;	
+}
+.playType {
+	font-size: 200%;
+	text-align: center; 
+}
+body {
+	background-color: #C4C9CC;
+}
+.text-center {
+	color: white;
+	background-color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.row {
+	text-align: center;
+}
+#you {
+	float: left;
+}
+#compChoice {
+	float: right;
+}
+.widthGame{
+	width:71.25%;
+	margin-left:14%;
+	margin-right: 14%;
+}
+.navBar {
+	display: block;
+	width: 97%;
+	float: left;
+	border: solid white 5px;
+	background-color: white;
+	text-align: center;
+}
+a {
+	color:#8394A0;
+}
+a:hover {
+	text-decoration: none;
+}
+
