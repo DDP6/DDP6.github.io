@@ -1,12 +1,116 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Javascript Roguelike</title>
-		<script src="https://ondras.github.io/rot.js/rot.js"></script>
-		<script src="game.js"></script> <!-- ADD FOLDERS LATER -->
-		<script src="screens.js"></script> <!-- ADD FOLDERS LATER -->
-	</head>
-	<body onload="game.init()">
-		<!-- GAME AREA -->
-    </body>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+	<title>Wheeler's Website</title>
+</head>
+
+<body>
+	
+<nav class="navbar navbar-inverse" role="navigation" id="topnavbar">
+	<div class="container">
+		<div class="navbar-header">
+		<a class="navbar-brand" href="#">
+			<img alt="Bracketbox" src="Images/BracketBox.png" class="headerImage">
+		</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+				<li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Games<span class="caret"></span></a>
+		          <ul class="dropdown-menu" role="menu">
+		            <li><a href="HTML/game.html">The Arena</a></li>
+		            <li><a href="HTML/game.html">Rythmia</a></li>
+		            <li><a href="HTML/game.html">ROT roguelike map</a></li>
+		          </ul>
+		        </li>
+				<li><a href="HTML/about.html">About</a></li>
+				<li><a href="HTML/resources.html">Resources</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+	<div class="content">
+		<div class="entryBox">
+			<p>Web journal stuff here.</p>
+		</div>
+		<div class="entryBox">
+			<p>2/27/15</p>
+			<p>Made web journal, what is this for? Worked on javascript project.</p>
+		</div>
+		<div class="entryBox">
+			<p>3/13/15 build name "Pointy"</p>
+			<p>Have been totally using the web journal every day. Totally.</P>
+			<p>Worked on OGPC2015 game, almost finished a point system, needs reworking as there is currently a bug with points destroying themselves and causing the other point objects to become inactive.</p>
+		</div>
+		<div class="entryBox">
+			<p>3/16/15 build name "Attractive"</p>
+			<p>Solved the points problem, they now figure out what object is the player at startup instead of having to be declared in the inspector. For whatever reason this solved the problem. Text GUI was put on the screen that will later ajust acording to the points variable but right now it just reads "Points: X" forever.</p>
+		</div>
+		<div class="entryBox">
+			<p>3/18/15 build name "Slimy"</p>
+			<p>Finished the points system (it now writes to the GUI whevenver points updates). Implememnted the (hopefully) finished level 1 enemy sprite/animation.</p>
+		</div>
+		<div class="entryBox">
+			<p>3/20/15 build name "Myxo"</p>
+			<p>Added checklist to Trello, began replacing more placeholder assets.
+		</div>
+		<div class="entryBox">
+			<p>3/30/15 build name "Click to Begin"</p>
+			<p>Came back from break, rehauled web journal by adding another class to seperate entries. Should be more readable now.</p>
+			<p>Implemented a trash collection to the particle effects, so they delete themeseves after a relevant amount of time. I also made it so that the particles automatically made themseves a child of the player, allowing more complicated effects without making them look weird.</p>
+		</div>
+		<div class="entryBox">
+			<p>4/1/15 build name "Particle"</p>
+			<p>Finished the animator controller by splitting the running animation into two parts, allowing sounds like steps to be added easier. Also began working on adding music to the menus and levels, making sure they are pre-loaded. This allows me to fine tune when they begin and will hopefully keep the timing 
+			consistant. Finished by looking for and downloading various sound samples (about 8 or so), to be implemented later.</p>
+		</div>
+		<div class="entryBox">
+			<p>4/3/15 build name "Ready Level One"</p>
+			<p>Began working on level one, as well as converting the rest of the music to mp3 files so they will work in Unity.</p>
+			<p>Created an object that debugs it's position when it is instantiated, so I can build levels to be more congruent with player input. Experimented with this by putting all debugged positions into a spreadsheet for later use.</p>
+			<p>After experimentation, using a spreadsheet is too much manual work, as is having objects debug directly into the spreadsheet as well. I have an idea to solve this though. Recording a video of the player running through a level with x-pos of the player visible, and music playing audably. Going through the video and pinpointing specific parts will be much easier and faster. The only problem is finding a recording program, but as problems go it's easily solvable.</p>
+		</div>
+		<div class="entryBox">
+			<p>4/22/15 build name "Going Gold"</p>
+			<p>Finished the game, OGPC is done. Won best art and assets award.</p>
+			<p>Began working on a Javascript Roguelike with Grayson, this will be the new project being worked on for the next few weeks (months?).</p>
+			<p>Will eventually atempt to set up Github, until then I'll assume it just works because of magic.</p>
+		</div>
+		<div class = "entryBox">
+			<p>4/29/15</p>
+			<p>Continued work on the Javascript Roguelike, also set up github.</p>
+		</div>
+		<div class = "entryBox">
+			<p>5/6/15</p>
+			<p>Using codecademy and Treehouse to become more familair with Objects in Javascript. Hopefully player interaction will be done within the week. Dungeon map generation is up and running.</p>
+		</div>
+		<div class = "entryBox">
+			<p>5/11/15</p>
+			<p>Moving the css and html from the review project to the final project. It's a mess but I'm working on it.</p>
+		</div>
+		<div class="entryBox">
+			<p>5/15/15</p>
+			<p>Messing with the CSS to make the website be mobile friendly. Bootstrap is confusing and I don't know what I'm doing, getting better though. Hopefully this project will be done soonish, I want to get back to using Unity.</p>
+		</div>
+		<div class = "entryBox">
+			<p>5/18/15</p>
+			<p>Adding bootsrtap messed up formating, slowly fixing it.</p>
+		</div>
+		<div class="entrybox">
+			<p>5/20/15</p>
+			<p>Struggling with bootstraps dropdown bars, I think I have to use a javascript file with the dropdown stuff already built into bootsrap. Finally got the dropdown working w/ help from Jamison, ended up changing from linking to bootsrap to just downloading the files.</p>
+		</div>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
 </html>

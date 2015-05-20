@@ -1,0 +1,89 @@
+body {
+background-color: lightgrey;
+}
+
+#topBanner{
+
+}
+#topBanner h1{
+	text-align: center;
+}
+
+#navigation{
+	list-style: none;
+	text-align: center;
+	width: 100%;
+	padding-left: 2%
+}
+#navigation li { 
+	border: solid black 5px;
+	border-radius: 20px;
+	color: black;
+	float: left;
+	display: inline-block;
+	background-color: #A77D58;
+	width: 22%;
+	text-align: center;	
+	margin-right: 2%;
+	font-size: 38px;
+	height: 40px;
+	text-align: center;
+}
+#navigation li a {
+	text-decoration: none;
+	color: black;
+	width: 480px;
+	margin-top	: 10px;
+}
+#navigation li:hover {
+	background-color: #FF7100;
+}
+	
+
+
+#resourcesList li {
+	list-style: none;
+}
+#resourcesList li a {
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+}
+
+}
+#resourcesList li a:hover{
+	font-size: 200%;
+}
+.journalWrapper {
+	border: solid black 2px;
+	border-radius: 10px;
+	
+	margin-left:  7.5%;
+	margin-right: 7.5%;
+	width: 85%;
+	padding: 10px;
+}
+#titleJournal{
+	margin-top: 3%;
+}
+#aboutPage {
+	margin-top: 50px;
+}
+.text-justify {
+	font-size: 20px;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+	margin: auto;
+
+}
+.container {
+	margin-top: 15px;
+}
+.specialInput {
+	margin-left: 10%;
+	margin-right: 10%;
+}
