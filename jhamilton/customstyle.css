@@ -1,37 +1,7 @@
-.title {
-	border-radius: 10px;
-	border: solid black 10px;
-	background-color: blue;
-	color: yellow;
-}
-.center {
-	text-align: center;
-}
-
-.text {
-	color: #FF0700;
-	font-size: 32px;
-	border: solid black 16px;
-	background-color: #7DF800;
-	border-radius: 15px;
-	margin-bottom: 25px;
-	-webkit-transition: all 0.6s ease-in-out 0s;
-	-moz-transition: all 0.6s ease-in-out 0s;
-	-transition: all 0.6s ease-in-out 0s;
-	-webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	-transform: translateZ(0);
-}
-
-.text:hover {
-	background-color: blue;
-}
-
-
-.link:visited {
-	text-decoration: none;
-}
-
-.body {
-	background-color: purple;
+.imgMed {
+	height: 90%;
+	width: 90%;
+	margin: 5%;
+	border-radius: 1%;
+	border: solid black 5px;
 }
