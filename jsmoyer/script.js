@@ -10,7 +10,7 @@ function playerRock() {
 	playerScissorsCount = -1;
 	playerRockCount++;
 	console.log("Player Rock Function count is: " + playerRockCount);
-	document.getElementById("image").innerHTML = '<img width="100px" height="100px"src="blank1.png">'
+	document.getElementById("image").innerHTML = '<img width="100px" height="100px"src="images/blank1.png">'
 	if(playerRockCount == 2){
 		computerWin();
 	} else { 
@@ -25,7 +25,7 @@ function playerPaper() {
 	playerScissorsCount = -1;
 	playerPaperCount++;
 	console.log("Player Paper Function count is: " + playerPaperCount);
-	document.getElementById("image").innerHTML = '<img width="100px" height="100px" src="blank2.png">'
+	document.getElementById("image").innerHTML = '<img width="100px" height="100px" src="images/blank2.png">'
 	if(playerPaperCount == 2){
 		computerWin();
 	} else { 
@@ -39,7 +39,7 @@ function playerScissors() {
 	playerRockCount = -1;
 	playerScissorsCount++;
 	console.log("Player Scissors Function count is: " + playerScissorsCount);
-	document.getElementById("image").innerHTML = '<img width="100px" height="100px" src="blank3.png">'
+	document.getElementById("image").innerHTML = '<img width="100px" height="100px" src="images/blank3.png">'
 	if(playerScissorsCount == 2){
 		computerWin();
 	} else { 
@@ -57,18 +57,18 @@ function computerMove(){
 		} else {
 		if(randomize == 1){
 		computerChoice = 1;
-		document.getElementById("computer").innerHTML = '<img width="100px" height="100px"src="blank1.png">';
+		document.getElementById("computer").innerHTML = '<img width="100px" height="100px"src="images/blank1.png">';
 		compare();
 		}
 		else if(randomize == 2) {
 		computerChoice = 2;
-		document.getElementById("computer").innerHTML = '<img width="100px" height="100px" src="blank2.png">';
+		document.getElementById("computer").innerHTML = '<img width="100px" height="100px" src="images/blank2.png">';
 		compare();
 
 		}
 		else if(randomize == 3){
 		computerChoice = 3;
-		document.getElementById("computer").innerHTML = '<img width="100px" height="100px" src="blank3.png">';
+		document.getElementById("computer").innerHTML = '<img width="100px" height="100px" src="images/blank3.png">';
 		compare();
 		}
 	}
@@ -107,17 +107,17 @@ function computerWin() {                                         //if player pic
 	
 	if (playerPaperCount == 2){
 	computerChoice = 3;
-	document.getElementById("computer").innerHTML = '<img width="100px" height="100px" src="blank3.png">';
+	document.getElementById("computer").innerHTML = '<img width="100px" height="100px" src="images/blank3.png">';
 	compare();
 	}
 	else if(playerRockCount == 2) {
 	computerChoice = 2;
-	document.getElementById("computer").innerHTML = '<img width="100px" height="100px" src="blank2.png">';
+	document.getElementById("computer").innerHTML = '<img width="100px" height="100px" src="images/blank2.png">';
 	compare();
 	}
 	else if(playerScissorsCount == 2) {
 	computerChoice = 1;
-	document.getElementById("computer").innerHTML = '<img width="100px" height="100px" src="blank1.png">';
+	document.getElementById("computer").innerHTML = '<img width="100px" height="100px" src="images/blank1.png">';
 	compare();
 	}
 	
