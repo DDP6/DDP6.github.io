@@ -5,7 +5,7 @@ var ranNum = "";
 function compChoice() {
 	compNumber = Math.floor(Math.random() * 100);
 	randomNum();
-	//Runs after any of the individual buttons are pressed and generates a random number
+	//Runs after any of the individual buttons are pressed and generates a random number between 0-99
 };
 function askRock() { 
 	playerChoice = 1;
@@ -21,7 +21,7 @@ function askScissors() {
 	playerChoice = 3;
 	document.getElementById('you').innerHTML = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_qn70uvkqzM6-Sj7SFhvCssjmEjV33_NLQ-sh_xq89Gk6QXZb">';
 	compChoice();
-	//Chooses a number depending on player choice
+	//Chooses a number depending on player button click-displays the respective picture following that click
 };
 
 
@@ -42,6 +42,7 @@ function randomNum() {
 		document.getElementById("compChoice").innerHTML = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_qn70uvkqzM6-Sj7SFhvCssjmEjV33_NLQ-sh_xq89Gk6QXZb">';
 		runGame();
 	}
+	//Takes the generated number and depending on what it is assigns the computer a specific number
 };
 
 function runGame(){
