@@ -27,3 +27,10 @@
 body {
 background-color: lightgrey;
 }
+#background_image{
+background-image: url("http://rfbasketball.com/wp-content/uploads/2012/09/cropped-basketball-court-backgrounds1.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 100%;
+height: 250px;
+}
