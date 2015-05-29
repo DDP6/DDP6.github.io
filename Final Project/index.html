@@ -41,10 +41,59 @@
 </header>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-4 col-xs-12">
         <div class="main">
          <h2>About Me:</h2>
-          <p></p>
+          <p>My name is Creslin, and I am a student at Franklin High School, I have a coding class where I program web pages to look super cool and informative, you are on one of them right now! Mine! Meta. I like to play lots of video games and have even created one in scratch, you can play it below:</p>
+
+          <iframe allowtransparency="true" width=500 height=400 src="http://scratch.mit.edu/projects/embed/42127952/?autostart=false">Mah Epic Gaem.</iframe><br>
+      </div>
+        <div class="col-md-4 col-xs-12">
+          <img width="500" height="400" class="hidden-xs" id="me" src="me.png">
+          
+          <p>I spent a lot of my life in Portland, where I am currently attending Franklin High School.</p>
+
+          <img width="500" height="400" class="hidden-xs" id="Franklin" src="Franklin.jpg">
+          <img width="500" height="400" class="hidden-xs" id="Portland" src="Portland.jpg"><br>
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Forms</button>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Important Info</h4>
+                  </div>
+                  <div class="modal-body">
+                   <form name="formInput">
+                      Enter your name: <br>
+                        <input type="text" name="names"><br>
+                      Your favorite gaming device:<br>
+                          <input type="radio" name="console" value="Playstation 4">Playstation 4
+                          <input type="radio" name="console" value="Xbox One">Xbox One
+                          <input type="radio" name="console" value="Wii-U">Wii-U
+                          <input type="radio" name="console" value="PC">PC
+                          <input type="radio" name="console" value="Ouya">Ouya<br>
+
+                      Limbs you have: <br>
+                          <input type="checkbox" name="limbs" id="1" value="head">Head<br>
+                          <input type="checkbox" name="limbs" id="2" value="arms">Arms<br>
+                          <input type="checkbox" name="limbs" id="3" value="legs">Legs<br>
+                          <input type="checkbox" name="limbs" id="4" value="hands">Hands<br>
+                          <input type="checkbox" name="limbs" id="5" value="feet">Feet<br>
+
+                      It's a secret to everybody: <br>
+                        <input type="password" name="secret">Your Secret<br>
+
+                      <input type="submit" value="Submit">
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+              </div>
+           </div>
+          </div>
+          <p id="result"></p>
         </div>
       </div>
     </div>
