@@ -1,84 +1,111 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>Rock Paper Scissors</title>
-		
-		
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Review Project</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-		<h1 class="h1" style="text-align: center;">Rock Paper Scissors</h1>
 		
-	
-			 <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
-			<ul class="nav nav-tabs">
-					<li role="presentation" class="col-lg-4 col-md-4 col-sm-4 col-xs-12" ><a style="text-align:center;" href="home.html">Home</a></li>
-					<li role="presentation" class=" active col-lg-4 col-md-4 col-sm-4 col-xs-12"><a style="text-align:center;"  href="index.html">Rock Paper Scissors</a></li>
+			
+		
+			<div class="container-fluid">
+				<div id="background_image"></div>
+				<ul class="nav nav-tabs">
+					<li role="presentation" class=" active col-lg-4 col-md-4 col-sm-4 col-xs-12" ><a style="text-align:center;" href="index.html">Home</a></li>
+					<li role="presentation" class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a style="text-align:center;"  href="game.html">Rock Paper Scissors</a></li>
 					<li role="presentation" class=" col-lg-4 col-md-4 col-sm-4 col-xs-12"><a style="text-align:center;"  href="journal.html">Journal</a></li>
 				</ul>
-			<!--</div>-->
-		<div class="container" >
-			<div class="jumbotron">
+			</div>
+		
+
+			<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-xs-4"><img class="img-rounded img-highlight" src="images/img2.jpg" alt="basketball 3"></div>
+				<div class="col-md-4 col-xs-4"><img class="img-rounded img-highlight"  src="images/img1.jpg" alt="basketball2"></div>
+				<div class="col-md-4 col-xs-4"><img class="img-rounded img-highlight"  src="images/img.jpg" alt="Basketball 1"></div>
+			</div>
+			</div>
+		
+			<div class="container">
 				<div class="row">
-					<div class="col-md-4" style="text-align: center;">
-						<h1>Player</h1>
+					<div class="text-center col-md-12 col-xs-12">
+					<h4>About</h4>
 					</div>
-					
-					<div class="col-md-4">
-					</div>
-					
-					<div class="col-md-4" style="text-align: center;">
-						<h1>Computer</h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4" style="text-align: center;">
-								<div id="image">
-									
-								</div>
-					</div>
-					
-					<div class="col-md-4" style="text-align: center;">
-						<p id="decision"></p>
-					</div>
-					
-					<div class="col-md-4" style="text-align: center;"id="computer">
-						
-						
-					</div>
-				</div>
-				<br>
-				<br>
-				<br>
-				<br>
-				<div class="row">
-					<div class="col-md-4" style="text-align: center;">
-					</div>
-					
-					<div class="col-md-4" style="text-align: center;">
-						<img class="button" src="blank2.png" onclick="playerPaper()">
-						<img class="button" src="blank3.png" onclick="playerScissors()">
-						<img class="button"   src="blank1.png" onclick="playerRock()">
-					</div>
-					
-					<div class="col-md-4" style="text-align: center;">
-						
+					<div class="col-md-12 col-xs-12">
+					<p>I play basketball a lot and I am hoping to play in college. I also play the violin and I like math and science and psychology.
+					I was born in Portland and also lived in Massachusetts for two years from 2002 to 2004. I started playing basketball for a team in fourth grade. The first basketball hoop I shot on was in my backyard when I was two. It was nailed to the back of our garage and it was very short.
+					I also play soccer and I was on the JV soccer team at Franklin last year. My least favorite player in the NBA is James Harden because he flops too much and is generally annoying. I hope the Warriors sweep the Houston Rockets in the Western Conference finals. 
+					</p>
 					</div>
 				</div>
 			</div>
-		</div>
+			
+
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			Forms
+			</button>
+
+<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel">Questions</h4>
+						</div>
+					<div class="modal-body">
+						<h4>What is your favorite team?</h4>
 	
+						<form name="practiceForm" action="action">
+	
+							<input type="text" name="username">
+							<p> what is your name</p>
+							<input type="text" name="name">
+							<p>What is your favorite food?</p>
+							<input type="text" name="food">
+							
+							<p>Select your favorite fruit:</p>
+							<select id="mySelect">
+								<option value="apple">Apple</option>
+								<option value="orange">Orange</option>
+								<option value="pineapple">Pineapple</option>
+								<option value="banana">Banana</option>
+							</select>
+							<p>What's the highest education you've had?</p>
+							<input type="radio" name="education" value="high school" checked>High School
+							<br>
+							<input type="radio" name="education" value="college">College
+							<br>
+							<input type="radio" name="education" value="middle school">Middle School
+							<br>
+							<input type="submit" name="submit" value="Submit">
+		
+						</form>
+						
+	
+						<p id="displayText"></p>
+						<p id="display2"></p>
+						<p id="display3"></p>
+						<p id="display4"></p>
+						<p id="display5"></p>
+					</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					
+				</div>
+				</div>
+			</div>
+			</div>
+		
+	
+	
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+	<script src="js/home.js"></script>
 
-		<script type="text/javascript" src="script.js"></script>
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/npm.js"></script>
-	</body>	
-
-
-
-
+		
+	</body>
 </html>

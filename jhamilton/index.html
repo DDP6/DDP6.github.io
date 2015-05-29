@@ -20,11 +20,11 @@
           <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </button>
-       <p class="navbar-brand">Final</p>
+       <p class="navbar-brand" href="#">Final</p>
      </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
        <ul class="nav navbar-nav">
-          <li><a href="">Journal</a></li>
+          <li><a href="http://ddp6.github.io/jhamilton/Journal/">Journal</a></li>
           <li><a href="http://ddp6.github.io/jhamilton/Rock,%20Paper,%20Scissors/index.html">Rock, Paper Scissors</a></li>
          </div>
         </div>
@@ -39,14 +39,32 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-6">
+        <div class="col-xs-4">
           <img class="imgMed" class="img-responsive" src="http://www.tehcute.com/pics/201110/marshmellow-kitten-big.jpg">
         </div>
-        <div class="col-xs-6">
+        <div class="col-xs-4">
+          <img class="imgMed" class="img-responsive" src="http://assets.dogtime.com/asset/image/5436e949874c097602003988/column_cat-meme-kitten-tries-to-get-big-dog-to-smile.jpg">
+        </div>
+        <div class="col-xs-4">
           <img class="imgMed" class="img-responsive" src="https://mcqshield.files.wordpress.com/2014/03/kittens4.jpg">
         </div>
       </div>
     </div>
+    
+    <div class="text-center">
+      <h1>Do You Like kittens?</h1>
+      <form name="formOne" action="action">
+        <input type="radio" name="likeKittens" value="yes">Yes
+        <input type="radio" name="likeKittens" value="no">No
+        <br> 
+        <p>How much will you donate to kitten support?</p>
+        <input type="text" name="donateAmount" placeholder="$">
+        <input type="submit" name="submit">
+      </form>
+      
+      <div id="result"></div>
+
+    <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
