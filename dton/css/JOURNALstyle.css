@@ -1,0 +1,109 @@
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+hr {
+	height: 20px;
+	background: url(http://website.education.wisc.edu/~swu28/d3t/images/hr1.jpg) no-repeat center;
+	border: none;
+}
+.submenu {
+	
+	width: 22.4%;
+	height: auto;
+	padding: 5px;
+	background-color: grey;
+	color: white;
+	float: left;
+	text-align: center;
+	border: solid black 7px;
+	border-radius: 20px;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+
+#aboutarea{
+border:solid black;
+}
+
+
+
+}
+
+.picture {
+height: auto;
+width: 250px;
+border: 20px solid navy;
+margin: 50px;
+text-align:center;
+}
+h1 {
+	text-align: center;
+	border:solid grey;
+	margin-left:300px; 
+	margin-right:300px;
+	background-color: grey;
+	margin-bottom:;
+}
+
+header{
+margin-left:auto;
+margin-right:auto;
+background-color: ;
+text-align:center;
+}
+
+.journalentries{
+text-align:center;
+border:solid; 
+background-color:grey;
+margin-right:250px;
+margin-left:250px;
+margin-bottom: 15px;
+
+}
+
+#navWrapper{
+width: 75%;
+height: 48px;
+margin: auto;
+
+}
+
+#picture {
+	
+width: 1550px;
+height: 528px;
+border: solid black 7px;
+margin: 20px ;
+}
+
+#picture img {
+width: 33%;
+height: 100%;
+	
+
+}
+
+#journaltitle{
+text-align:center;
+font-size:30px;
+
+}
+.linkweb{
+	text-align: left;
+	margin-left: 10px;
+}
+
+
+a{
+	text-decoration: underline overline;
+	color: #FFFF00;
+
+}
+
+
+body { background-color: white;}

@@ -1,0 +1,42 @@
+h1 {
+	text-align: center;
+	border:solid grey;
+	margin-left:300px; 
+	margin-right:300px;
+	background-color: grey;
+	margin-bottom:;
+}
+
+hr {
+	height: 20px;
+	background: url(http://website.education.wisc.edu/~swu28/d3t/images/hr1.jpg) no-repeat center;
+	border: none;
+}
+
+.submenu {
+	
+	width: 22.4%;
+	height: auto;
+	padding: 5px;
+	background-color: grey;
+	color: white;
+	float: left;
+	text-align: center;
+	border: solid black 7px;
+	border-radius: 20px;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+
+img {
+	float:right;
+	font-size: 200px;
+	height:300px;
+	width:300px;
+}
+
+
+
+
+body { background-color: white;}

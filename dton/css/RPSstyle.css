@@ -1,0 +1,103 @@
+.button {
+	display: text;
+	text-align: center;
+	
+}
+
+#You {
+	float:left;
+	text-align: center;
+	margin-left: ;
+}
+
+#computer {
+	margin-right:;
+	float:right;
+	text-align: center;
+}
+
+
+
+h1 {
+	margin-left:300px; 
+	margin-right:300px;
+	height: 40px;
+	background-color:grey;
+	
+	text-align: center;
+	border:solid grey;
+
+}
+
+hr {
+	height: 20px;
+	background: url(http://website.education.wisc.edu/~swu28/d3t/images/hr1.jpg) no-repeat center;
+	border: none;
+}
+
+
+
+
+
+img {
+	margin-left: ;
+	font-size: 10px;
+	display: block;
+	width: 200px;
+	background-color: transparent;
+}
+
+
+.compPic {
+	display: block;
+	
+	text-align: center;
+}
+
+.userPic {
+	display: block;
+	
+	text-align: center;
+}
+
+.resultWrapper{
+	text-align:center;
+	float:center;
+	font-style: italic;
+
+}
+
+#comprock {
+	float:right;
+	margin-right:50%;
+}
+#compName {
+	float:right;
+	display:block;
+	margin-right: 
+}
+
+#playerName {
+	float:left;
+}
+
+#rockWrapper {
+	display:block;
+	margin-left: 20px;
+}
+
+.submenu {
+	
+	width: 22.4%;
+	height: auto;
+	padding: 5px;
+	background-color: grey;
+	color: white;
+	float: left;
+	text-align: center;
+	border: solid black 7px;
+	border-radius: 20px;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+body { background-color: white;}
