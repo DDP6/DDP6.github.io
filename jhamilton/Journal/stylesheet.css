@@ -3,15 +3,15 @@
 	border: solid black 15px;
 	border-radius: 32px;
 	text-align: center;
-	background-color: #F2B707;
+	background-color: white;
 	margin-bottom: 25px;
 }
 
 #maincontent {
-	color: white;
+	color: black;
 	font-size: 32px;
 	border: solid black 16px;
-	background-color: #F2B707;
+	background-color: white;
 	border-radius: 15px;
 	margin-bottom: 25px;
 	-webkit-transition: all 0.6s ease-in-out 0s;
@@ -23,11 +23,11 @@
 }
 
 #maincontent:hover {
-	background-color: blue;
+	background-color: black;
+	color: white;
 }
 
 
 #backround
 {
-	background-color: purple;
 }
