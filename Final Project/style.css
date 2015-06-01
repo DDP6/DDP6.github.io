@@ -1,12 +1,14 @@
+/*Moves the body down for the navigation bar and gives color scheme.*/
 body { padding-top: 50px;
 	background-color: black;}
-
+/*Makes text readable with black backgrounds*/
 p {color: gray;}
-
+/*Styles image height and width*/
 img {
 	width: 500px; 
 	height: 400px;
-	}
+}
+/*Removes margin and padding from iframe*/
 iframe {
 	margin: 0px;
 	padding: 0px;
