@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Rock Paper Scissors</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="look.css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		</head>
+
+		<body>
+	<div class="container">
+
+<nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"> Rock Paper Scissors</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="game.html">Game</a></li>
+        <li><a href="jurnal.html">Web Journal</a></li> 
+            
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Sites <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="jurnal.html">Jurnal</a></li>
+              <ul>
+              </li>
+              
+      </ul>
+    </div>
+  </div>
+</nav>	
+			
+			
+			
+
+		<div class="row boxRow">
+			<div class="col-sd-4 col-md-4 col-xs-4">
+				<h2>Wins</h2>
+				<div id="win"></div>
+			</div>
+
+			<div class="col-sd-4 col-md-4 col-xs-4">
+				<h2>Loses</h2>
+				<div id="loss"></div>
+			</div>
+
+			<div class="col-sd-4 col-md-4 col-xs-4">
+				<h2>Ties</h2>
+				<div id="tie"></div>
+			</div>
+
+		</div>
+			
+			<div class="row topspaceRow">
+			
+				<div class="col-sd-6 col-md-6 col-xs-6">
+					<img class="pics img-responsive" id="player" src="img/ChooseOne.png">
+				</div>
+				<div class="col-sd-6 col-md-6 col-xs-6">
+					<img class="pics img-responsive" id="pc" src="img/ChooseOne.png">
+				</div>
+			</div>
+			<div class="row bottomspaceRow" >
+
+				<div class="col-sd-4 col-md-4 col-xs-4">
+					<button id="rock" onClick="playerRock(); evaluateCvP()">
+						<img class="pics img-responsive" src="img/rock.PNG">
+					</button>
+				</div>
+				<div class="col-sd-4 col-md-4 col-xs-4">
+					<button id="paper" onClick="playerPaper(); evaluateCvP()">
+						<img class="pics img-responsive" src="img/paper.PNG">
+					</button>
+				</div>
+				<div class="col-sd-4 col-md-4 col-xs-4">
+					<button id="sciossors" onClick="playerScissors(); evaluateCvP()">
+						<img class="pics img-responsive" src="img/scissors.PNG">
+					</button>
+				</div>
+			</div>	
+		</div>
+			<script src="game.js/script.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+			
+
+		</body>
+	</html>

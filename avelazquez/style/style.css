@@ -1,0 +1,45 @@
+body{ background-color: #FFE4C4;
+
+}
+p{
+	margin: 5px	;
+}
+
+h1 {
+	text-align: center;
+	color: #0B0534;
+	border: solid black 5px;
+	border-radius: 10px;
+}
+
+img {
+	margin: 5px;
+	border: solid black 5px;
+	border-radius: 10px
+
+}
+.a{
+	padding: 5px;
+	background-color: #88CC88;
+	border: solid black 5px;
+	border-radius: 10px;
+	font-size: 20px;
+	text-align:center;
+}
+.journalwrapper{
+	border: solid black;
+	border-radius: 10px;
+	background-color: #5F9EA0;
+	margin: 20px auto;
+	width: 85%;
+	padding: 10px;
+}
+
+#box{
+	padding: 15px;
+	background-color: #5F9EA0;
+	border: solid black 5px;
+	border-radius: 10px;
+	width: auto;
+	height: 70px;
+}
