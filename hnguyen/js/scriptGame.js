@@ -46,6 +46,7 @@ function randomNum() {
 };
 
 function runGame(){
+	//The "||" is considered an "OR" option when contained within a if/else sentence	
 	console.log(ranNum)
 	if(playerChoice == ranNum){
 		document.getElementById("text").innerHTML = "TIE";
@@ -56,9 +57,5 @@ function runGame(){
 	else if((playerChoice == 1 && ranNum == 3) || (playerChoice == 2 && ranNum == 1) || (playerChoice == 3 && ranNum == 2)){
 		document.getElementById("text").innerHTML = "WIN";
 	}
-	// The "||" is considered an "OR" option when contained within a if/else sentence
+	//Compares the generated numbers for the computer and player and declares outcome accordingly
 };
-
-
-	
-
