@@ -25,16 +25,31 @@
 	</row>
 
 	<row>
-		<form class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5">
-		<input type="radio" name="bio_state" value="true" checked>Show Biography
+		<form class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-xs-10 col-offset-xs-2">
+		<input type="radio" name="bio_state" value="true" checked/>Show Biography
 		<br>
-		<input type="radio" name="bio_state" value="false">Hide Biography
+		<input type="radio" name="bio_state" value="false"/>Hide Biography
 		<input type="button" value="Submit" onclick="Bio_Eval();"/>
 		</form>
 	</row>
 
 	<row>
 		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1" id="bio">
+		</div>
+	</row>
+	<row>
+		<h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Feeling left out? enter in your own content!</h1>
+	</row>
+	<row>
+		<form class="col-lg-2 col-lg-offset-5 col-md-2 col-xs-12 col-md-offset-5 col-sm-2 col-sm-offset-5 col-xs-offset-1" name"Input_area">
+	  	<input type="checkbox" name="Body_part" value="head"> I have a head<br>
+	  	<input type="checkbox" name="Body_part" value="legs"> I have legs<br>
+	  	<input type="button" value="Submit" onclick="Viewer_input_Eval()">
+		</form>
+	</row>
+
+	<row>
+		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-xs-offset-1" id="input_section">
 		</div>
 	</row>
 	<script src="JS/script.js"></script>

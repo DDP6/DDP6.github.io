@@ -104,3 +104,30 @@ function Bio_Eval(){// This function either displays or deletes the bio based on
 		document.getElementById("bio").innerHTML = "";
 	}
 };
+
+function Viewer_input_Eval(){
+	var body_part_collection = document.getElementsByName("Body_part");
+	var body_part_collection_checked =[];
+	for (var i=0; i<body_part_collection.length;i++){
+		if(body_part_collection[i].checked){
+			body_part_collection_checked.push(true);
+		}
+		else{
+			body_part_collection_checked.push(false);
+		}
+	}
+	
+	if (body_part_collection_checked[0] == true){
+		document.getElementById("input_section").innerHTML = "You have a head, but no legs.";
+	}
+	else if(body_part_collection_checked[1]  == true){
+		document.getElementById("input_section").innerHTML = "You have legs, but no head";
+	}
+	else if(body_part_collection_checked[0] == true && body_part_collection_checked[1] == true){
+		document.getElementById("input_section").innerHTML = "You have a head and legs!";
+	}
+	else{
+		document.getElementById("input_section").innerHTML = "You don't have a head or legs";
+	}
+	body_part_collection_checked = [];
+};
