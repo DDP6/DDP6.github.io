@@ -3,8 +3,7 @@
 <head>
 <title>Interactions</title>
 <link rel="stylesheet" type="text/css" href="css/css.style">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -35,31 +34,24 @@
 
 <hr>
 
+<div class="container">
 
-<div id="playgroundWrapper">
+  <h2>Contact me</h2>
+  <div class="title-bar"></div>
 
-	<div class="listWrapper" id="leftList">
-		<h2>Here is the course list:</h2>
-		<button id="courseButton" onCLick="courseFunction()">Enter Course</button>
-		<ul id="courses">
-
-		</ul>
-</div>
-
-	<div class="listWrapper" id="rightList">
-		<h2>Here are my career options:</h2>
-		<button id="careerButton" onClick="careerFunction()">Enter Careers</button>
-		<ul id="classes">
-
-		</ul>
-	</div>
-	</div>
-
-		<footer>
-				<p>This site was by Francis</p>
-		</footer>	
-
-
+  <form id="contact" action="#" method="post">
+    <div class="left">
+      <input type="text" placeholder="Name" required="required"/>
+      <input type="email" placeholder="Email" required="required"/>
+      <input type="text" placeholder="Subject" required="required"/>
+    </div>
+    <div class="right">
+      <textarea placeholder="Message" required="required"></textarea>
+    </div>
+    <div class="send-button cl">
+      <button type="submit">Send</button>
+    </div>
+  </form>
 
 </div>
 

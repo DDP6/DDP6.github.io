@@ -1,3 +1,6 @@
+
+////// R.P.S.html code below /////
+
 var userChoice;
 var comChoice;
 var randomNum;
@@ -82,4 +85,21 @@ $(document).ready(function(){
     $(this).addClass('active');
   });
 });
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
