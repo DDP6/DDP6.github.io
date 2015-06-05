@@ -33,7 +33,7 @@
           <ul class="dropdown-menu">
             <li><a href="index.html">About Me</a></li>
             <li><a href="journal/index.html">Daily Journal</a></li>
-            <li><a href="game /index.html">Rock Paper Scissors</a></li>
+            <li><a href="game/index.html">Rock Paper Scissors</a></li>
           </ul>
         </li>
       </ul>
@@ -43,21 +43,29 @@
 </header>
 <!--Paragraphs coding-->
   <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-xs-12">
-        <div class="main">
-         <h2>About Me:</h2>
-          <p>My name is Creslin, and I am a student at Franklin High School, I have a coding class where I program web pages to look super cool and informative, you are on one of them right now! Mine! Meta. I like to play lots of video games and have even created one in scratch, you can play it below:</p>
 
-          <iframe allowtransparency="true" width=500 height=400 src="http://scratch.mit.edu/projects/embed/42127952/?autostart=false">Mah Epic Gaem.</iframe><br>
+<!-- First row -->
+    <div class="row">
+      <div class="col-xs-12">
+         <h2>About Me:</h2>
+          <p>My name is Creslin, I , you can play it below if you aren't on mobile:</p>
       </div>
-        <div class="col-md-4 col-xs-12">
-          <img width="500" height="400" class="hidden-xs" id="me" src="me.png">
-          
-          <p>I spent a lot of my life in Portland, where I am currently attending Franklin High School.</p>
-          <!--Images code-->
-          <img width="500" height="400" class="hidden-xs" id="Franklin" src="Franklin.jpg">
-          <img width="500" height="400" class="hidden-xs" id="Portland" src="Portland.jpg"><br>
+    </div>
+
+<!-- Second row -->
+    <div class="row">
+      <div class="col-xs-12 col-md-6" class="hidden-xs">
+        <img class="hidden-xs bioPic img-responsive" id="fhs" src="pictures/fhs.jpg">
+        <img class="hidden-xs bioPic img-responsive" id="Franklin" src="pictures/Franklin.jpg">
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <p>I spent a lot of my life in Portland, where I am currently attending Franklin High School.</p>
+        <img class="hidden-xs bioPic img-responsive" id="me" src="pictures/me.png">
+        <img class="hidden-xs bioPic img-responsive"  id="Portland" src="pictures/windows.jpg"><br>          
+      </div>
+    </div>
+
+
           <!-- Forms Coding-->
           <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Forms</button>
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -103,7 +111,7 @@
       </div>
     </div>
   </div>
-<!--Start of Bootstrap
+<!--Start of Bootstrap-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 <!--End of Bootstrap-->

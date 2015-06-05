@@ -1,4 +1,22 @@
-body { padding-top: 50px;
+/*Moves the body down for the navigation bar and gives color scheme.*/
+body { padding-top: 150px;
 	background-color: black;}
-
+/*Makes text readable with black backgrounds*/
 p {color: gray;}
+
+.img-responsive {
+	height: 400px;
+	width: 500px;
+	margin-bottom: 5px
+}
+
+.embed-responsive {
+	height: 400px;
+	width: 500px;
+	margin-bottom: 5px;
+}
+
+body {
+	background-size: cover;
+	background-image: url(../pictures/portlandNight.jpg);
+}
