@@ -1,3 +1,4 @@
+///// Interactions.html below /////
 function courseFunction () {
 	
 	var text = "";
@@ -29,9 +30,7 @@ function careerFunction () {
 	}
 }
 
-
-
-
+/// Navigation bar code below /////
 
 $(document).ready(function(){
   $('nav li').click(function(){
