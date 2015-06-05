@@ -1,3 +1,4 @@
+----------------Header-----------------
 header {
     text-align: center;
     font-size: 260;
@@ -10,7 +11,7 @@ body {
 	background-color: #979695;
 }
 
-
+--------------------------------------Menu--------------------------------------
 #menu ul{
     padding: 0px;
     list-style: none;
@@ -37,14 +38,12 @@ body {
 #menu a:hover {
     background-color: #E68366
 }
-
+--------------------------------------------
 p.one {
 
 }
 
-#container { 
-        width:1100px; 
-    }
+
 
 p {
     color: #00E46A;
@@ -255,3 +254,133 @@ ul .classes{
     padding-left: 10px;
     float: auto;
 }
+
+------------------------------------------------------ Images -----------------------------------------------
+
+
+
+---------------------------------------------
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #f9f9f9;
+}
+
+h2, input, textarea, button{
+  font-family: 'Open Sans', sans-serif;
+}
+
+::-webkit-input-placeholder{color: #777;}
+:-moz-placeholder { /* Firefox 18- */ color: #777;}
+::-moz-placeholder {  /* Firefox 19+ */ color: #777;}
+:-ms-input-placeholder {color: #777;}
+
+.container{
+  width: 90%;
+  padding: 15px;
+  margin: 50px auto;
+}
+
+.container h2{
+  text-align: center;
+  text-transform: uppercase;
+  color: #f55;
+}
+
+.title-bar{
+  margin: 1px auto 10px auto;
+  width: 100px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+#contact input[type="text"],#contact input[type="email"], #contact textarea{
+  display: block;
+  padding: 10px;
+  margin: 10px auto;
+  width: 90%;
+  font-size: 18px;
+  color: #777;
+  border: 1px solid #ccc;
+}
+
+#contact textarea{
+  font-size: 16px;
+}
+
+#contact input:hover, #contact textarea:hover{
+  border: 1px solid #888;
+}
+#contact input:focus, #contact textarea:focus{
+  border: 1px solid #777;
+}
+
+
+#contact textarea{
+  max-width: 90%;
+  min-width: 90%;
+  max-height: 140px;
+  min-height: 140px;
+  resize: none;
+}
+
+#contact .send-button{
+  text-align: center;
+}
+
+#contact .send-button button[type="submit"]{
+  cursor: pointer;
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: .5s ease;
+}
+
+#contact .send-button button[type="submit"]:hover{
+  background: #c0392b;
+}
+
+#contact .send-button button[type="submit"]:focus{
+  position: relative;
+  top: 2px;
+}
+
+/*##############\*
+    Responsive
+\*##############*/
+
+@media screen and (min-width: 640px){
+  .container{
+    width: 600px;
+  }
+
+  #contact .right,#contact .left{
+    display: block;
+  }
+
+  #contact .right{
+    float: right;
+    width: 50%;
+  }
+  #contact .left{
+    float: left;
+    width: 50%;
+  }
+  .cl{
+    clear: both;
+  }
+}
+
+
+
+
+
