@@ -38,7 +38,7 @@ function randomize() {
 
 function process() {
 	if (User == randomizer)
-		document.getElementById("results").style.backgroundImage = "url(http://blog.cdn.famigo.com/blog/wp-content/uploads/2013/08/LnhpJI5.gif)";
+		document.getElementById("results").style.backgroundImage = "url(http://i3.kym-cdn.com/photos/images/newsfeed/000/856/761/eb9.gif)";
 	else if (User == 1 && randomizer == 2){
 		document.getElementById("results").style.backgroundImage = "url(http://rack.1.mshcdn.com/media/ZgkyMDEzLzA3LzE4L2EwL2NyeWluZ3dhdGVyLjQ2NzZiLmdpZgpwCXRodW1iCTEyMDB4OTYwMD4/9fead436/c15/crying-waterfalls.gif)";}
 	else if (User == 1 && randomizer == 3){
