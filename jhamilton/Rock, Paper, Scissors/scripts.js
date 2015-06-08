@@ -2,33 +2,32 @@ var userChoice;
 var math;
 var computerChoice;
 
-//these functions are the player's choices
+//these functions are the player's choices, and they print to the console
 function rock() {
 
 	userChoice = 1;
-
 	randomNumber();
+	console.log(userChoice);
 }
 
 function paper() {
 
 	userChoice = 2;
-
 	randomNumber();
+	console.log(userChoice);
 }
 
 function scissor() {
 
 	userChoice = 3;
-
 	randomNumber();
+	console.log(userChoice);
 }
-
 //this function generates the computer's choice
 function randomNumber() {
 	computerChoice = Math.ceil(Math.random()*3);
-
 	outCome();
+	console.log(userChoice);
 }
 
 // this code is what determines the outcome of both choices
@@ -79,6 +78,7 @@ function outCome() {
 		};
 	} 
 }
+
 
 // this group of functions (win, lose and tie) make the visuals happen depending on the outcome.
 function win() {
