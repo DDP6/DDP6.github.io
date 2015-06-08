@@ -26,7 +26,7 @@ function displayContent(event) {
 		}
 
 		if(document.getElementById("4").checked) {
-			limbs += ", hands";
+			limbs += ", hands ";
 		}
 
 		if(document.getElementById("5").checked) {
