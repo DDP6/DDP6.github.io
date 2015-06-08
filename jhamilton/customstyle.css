@@ -2,10 +2,28 @@
 	height: 90%;
 	width: 90%;
 	margin: 5%;
-	border-radius: 1%;
-	border: solid black 5px;
 }
 
 #backround {
-	background-color: gray;
+	background-image: url(http://www.newschoolbeer.com/wp-content/uploads/2015/04/4907049200_286a8c294b_z.jpg);
+	background-size: cover;
+}
+
+.navbar-custom {
+	color: #AAA939;
+	background-color: #572A72
+}
+
+.text-customColor {
+	color: #337ab7;
+}
+
+.text-black {
+	color: black;
+}
+
+#carouselCustom {
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
 }
