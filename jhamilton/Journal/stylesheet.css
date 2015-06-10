@@ -29,5 +29,15 @@
 
 #backround
 {
-	background-color: gray;
+	background-image: url(http://www.servmi.co.za/images/indaris_parchment.jpg);
+	background-size: cover;
+
+}
+
+.navbar-custom {
+	background-color: #5A5CB2;
+}
+
+.navbar-custom a {
+	color: #FFD96C;
 }
