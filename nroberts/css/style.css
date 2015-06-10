@@ -1,0 +1,94 @@
+h1{
+	text-align: center;
+	border:solid black 5px;
+	border-radius: 10px;
+	background-color: rgb(114, 36, 16);
+	color: black;
+} 
+
+
+a{
+	text-decoration: none;
+}
+	
+
+ .journalWrapper{
+ 	border: solid black 10px;
+ 	border-radius: 10px;
+ 	background-color:;
+ 	margin: 20px auto;
+ 	width:85%;
+ 	padding:10px;
+ 	background-color: rgb(23, 23, 23);
+ 	color:white;
+ }
+
+h2 {
+ 	text-align: center;
+
+ }
+
+h3 {
+ 	text-align: center;
+
+ }
+
+#gameWrapper{
+	margin-top: 40px;
+}
+
+body{
+	background-color: rgb(168, 75, 45); ;
+}
+
+
+#result{
+	border: solid black 5px;
+	border-radius: 10px;
+	display: inline-block;
+	background-color:rgb(23, 23, 23);
+	color: white; 
+}
+#bio  {
+	border:solid black 5px;
+	border-radius: 10px;
+	background-color: rgb(23, 23, 23);
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#formOne{
+	border: solid black 10px;
+	color: white;
+	background-color: rgb(23,23,23);
+	padding: 10px;	
+	border-radius: 10px;
+	padding-top: 10px;
+}
+
+#formTwo{
+	border: solid black 10px;
+	color: white;
+	background-color: rgb(23,23,23);
+	padding: 10px;	
+	border-radius: 10px;
+	padding-top: 10px;
+}
+
+#input{
+	color: black;
+	margin-left: 35%;
+}
+
+#submit{
+	color: black;
+	border: solid black 10px;
+	background-color: rgb(23,23,23);
+	padding: 10px;	
+	border-radius: 10px;
+}
+
+#button{
+	margin-left: 25px;
+}

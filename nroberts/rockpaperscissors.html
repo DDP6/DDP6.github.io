@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+ <html lang="en">
+ 	<head>
+ 		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 		<title>Rock, Paper, Scissors</title>
+ 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+ 		
+ 	</head>
+
+ 	<body>
+ 		<div class="container">
+      <div class="row">
+       	<div class="col-xs-12">
+          <h1 class="text-center">Rock, Paper, Scissors </h1>
+            <div class="content">
+          	</div>
+       	</div>    
+     	</div>
+        
+      <div class="row">
+            
+        <div id="navBox">
+          <ul id="navigationWrapper">
+          
+            <div class="col-xs-12 col-sm-3 col-md-4">         
+              <button class="navBar"><a href="index.html">Home</a></button>
+            </div>
+          
+
+        
+            <div class="col-xs-12 col-sm-3 col-md-4">         
+              <button class="navBar"><a href="webjournal.html">Web Journal</a></button>
+            </div>
+          
+
+            <div class="col-xs-12 col-sm-3 col-md-4">         
+              <button class="navBar"><a href="rockpaperscissors.html">Rock, Paper, Scissors</a></button>
+            </div>
+          </ul>
+        </div>  
+      </div>
+
+     	<div class="row" id="gameWrapper">
+        		<div class="col-xs-12 col-sm-4 col-md-4">
+ 					    <button class="playChoice" id="rock" onClick="playerrock()">
+ 						   <img src="http://img.timeinc.net/time/photoessays/2009/top10_toy/pet_rock.jpg" alt="rock">
+ 					    </button>
+            </div>
+ 			
+ 				    <div class="col-xs-12 col-sm-4 col-md-4">
+ 					    <button class="playchoice" id="paper" onClick="playerpaper()">
+						    <img src="http://www.2020site.org/templates/images/paper-airplane.jpg" alt="paper">
+					    </button>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4">
+ 					    <button class="playchoice" id="scissors" onClick="playerscissors()">
+ 						   <img src="http://www.postalgames.com/prod_images_small/rws_sign.gif" alt="scissors">
+ 					    </button>
+            </div>
+      </div>      
+ 		</div>
+ 		
+
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+ 		<script src="js/bootstrap.min.js"></script>
+ 		<script src="js/scripts.js"></script>
+ 	</body>
+</html>
