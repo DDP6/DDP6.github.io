@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Rock Paper Scissors</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#">Game Center</a>
+            </li>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="#about">Game</a>
+            </li>
+            <li>
+                <a href="../journal/journal.html">Web Journal</a>
+            </li>
+         
+
+        </ul>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Welcome to my Game Center!</h1>
+        </div>
+      </div>  
+
+
+
+
+
+      <div class="row gameContainer">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="text-center">Rock, Paper, Scissors!</h1>
+          </div>
+        </div>
+       
+        <div class="row">
+          <div class="col-xs-5">
+            <div class="row">
+              <div class="col-xs-12">
+                <h5 class="text-center">Player</h5>
+              </div>
+
+            <div class="row">
+              <div class="col-sm-4 col-xs-12">
+                <button id="rock" onClick="playerRock()">Rock</button>
+              </div>
+              <div class="col-sm-4 col-xs-12">
+                <button id="paper" onClick="playerPaper()">Paper</button>
+              </div>
+              <div class="col-sm-4 col-xs-12">
+                <button id="scissors" onClick="playerScissors()">Scissors</button>
+              </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-xs-0 col-sm-4"></div>
+                <div id="playerImage" class="col-xs-12 col-sm-4">
+                    
+                      <img src="rock.png" class="img-responsive" alt="rock">
+                      
+                </div>
+
+                <div class="col-xs-0 col-sm-4"></div>
+            </div>
+
+          </div>
+        </div>
+
+           
+           <div class="col-xs-2">
+            <div class="row"> 
+              <div class="col-xs-5"></div>
+                <div class="col-xs-2">
+                  <h6 id="winnerLoser" class="text-center"></h6>
+                </div>
+                <div class="col-xs-5"></div>
+            </div>     
+          
+           </div>
+
+          
+        <div class="row">
+          <div class="col-xs-5">
+            <div class="row">
+              <div class="col-xs-12">
+                <h5 class="text-center">Computer</h5>
+              </div>
+
+
+        <div class="row">
+          <div class="col-xs-0 col-sm-4"></div>
+            <div id="computerImage" class="col-xs-12 col-sm-4">
+                <img src="paper.png" class="img-responsive">
+            </div>
+          <div class="col-xs-0 col-sm-4"></div>
+        </div>     
+
+
+          </div>      
+        </div>
+
+
+        </div>
+
+      </div>           
+
+    </body>
+          
+
+     
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

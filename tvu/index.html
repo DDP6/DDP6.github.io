@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap Grid Example</title>
+    <title>Homepage</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,64 +18,202 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container"> 
+    <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <center><h1>Grid Practice</h1></center>
+          <h1>Welcome to Tu's Hub</h1>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-4">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce purus ante, fermentum sit amet risus vitae, varius fringilla erat. Etiam convallis tincidunt mi. Mauris et dolor vitae tellus ultricies fermentum. Etiam diam leo, tempor eu diam ac, fermentum finibus quam. Sed facilisis est eu tempus iaculis. Sed maximus ornare tempor. Curabitur in vehicula nunc. Aliquam a elit tellus. Vestibulum blandit augue nec dui vulputate, sed cursus urna dignissim. Integer at ornare enim. Quisque nec tellus nec dui luctus dictum. Ut ac magna molestie, rutrum dui faucibus, tristique sem. Sed volutpat, orci vel placerat ultrices, leo turpis finibus nulla, vitae tempor ante nunc nec odio.</p>
+
+    
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Tu's Website</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home </a></li>
+        <li><a href="rps/index.html">Game</a></li>
+        <li><a href="journal/journal.html">Journal</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="rps/index.html">Game</a></li>
+            <li><a href="journal/journal.html">Journal</a></li>
+            <li><a href="#">Homepage</a></li>
+          </ul>
+        </li>
+        <li>
+
+        </li>
+      </ul>
+     
+        
+        <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">Forms</button>
+
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="myModalLabel">Fill out this form!</h3>
+           </div>
+              <div class="modal-body">
+                <div class="row" id="formTop" style="padding-left: 10px; padding-right: 10px;">
+                  <form name="example" action="action">
+                    <h4>Name:</h4>
+                      <input type="text" name="username"class="form-control">
+                    <h4>Password:</h4>
+                      <input type="password" name="password"  class="form-control">
+                    <h4>Your Biography:</h4>
+                      <textarea rows="4" class="form-control" name="bio"></textarea>
+
+                    <div class="form-group col-md-6">
+                      <h4>Your Gender:</h4>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="gender" value="male">
+                            Male
+                          </label>
+                        </div>
+
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="gender" value="female">
+                            Female
+                          </label>
+                        </div>
+
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="gender" value="other">
+                            Other
+                          </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-6">
+                      <h4>Food:</h4>
+                         <div class="checkbox">
+                          <label>
+                            <input type="checkbox" name="foods" value="rice">
+                            Rice
+                          </label>
+                        </div>
+
+                          <div class="checkbox">
+                          <label>
+                            <input type="checkbox" name="foods" value="more rice">
+                            More Rice
+                          </label>
+                        </div>
+
+                         <div class="checkbox">
+                          <label>
+                            <input type="checkbox" name="foods" value="even-more-rice">
+                            Even More Rice
+                          </label>
+                        </div>
+              </div>
+
+              <div class="form-group" id="selector_block">
+                <h4>Sport you like:</h4>
+                      <select name="sport" class="form-control">
+                        <option value="Soccer">soccer</option>
+                        <option value="Basketball">basketball</option>
+                        <option value="Football">football</option>
+                        <option value="Baseball">baseball</option>
+                        <option value="Track">track and field</option>
+                      </select>
+              </div>
+
+                    <div class="form-group text-center">
+                      <center><input type="submit" name="submit" value="Submit" class="btn btn-default"></center>
+                   </div>
+
+                   <div class="col-md-8" id="result">
+                  
+
+
+                   </div>
+          </form>
+           </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+         </div>
+           </div>
+          </div>
         </div>
-
-        <div class="col-xs-12 col-sm-4 col-md-4">
-          <p>Vivamus diam quam, viverra eget malesuada nec, accumsan porta risus. Mauris accumsan sem id augue tincidunt mattis. Proin eros felis, ornare non lectus sed, ultrices porta sem. Morbi dapibus tristique congue. Quisque eget libero id felis placerat gravida. Quisque efficitur mi ac elit ultricies ultricies. Quisque sit amet orci purus. In volutpat, eros quis euismod suscipit, quam nisl imperdiet enim, sit amet ultrices arcu sem nec nulla. Aenean tempor aliquam mattis. Duis id ex leo. Mauris viverra vitae ex ut mattis. Aenean posuere tempor mi in faucibus. Nullam in suscipit nibh, quis scelerisque diam. Donec laoreet nunc in turpis ultricies, nec finibus sapien consequat. Vestibulum id sem non odio venenatis ornare. Fusce efficitur velit nec auctor efficitur.</p>
-        </div>
-
-        <div class="col-xs-12 col-sm-4 col-md-4">
-          <p>Phasellus eget suscipit ligula. Donec tincidunt odio a elit placerat facilisis. Integer urna augue, tempus in lectus tempor, pellentesque euismod tellus. Suspendisse cursus, eros ac bibendum sodales, lacus magna auctor dolor, in auctor orci leo non augue. Curabitur tempus pulvinar lorem, quis tempor mauris faucibus ac. Aliquam ullamcorper arcu a dui fringilla blandit. Sed varius finibus lacus in molestie.</p>
-        </div>
-
-      </div>      
+      
+      
+    </div><!-- /.navbar-collapse -->
+ 
+</nav>
 
 
-     <div class="row">
-        <div class="col-xs-3 col-sm-3 col-md-3">
-          <img src="https://jugglingwithjulia.files.wordpress.com/2011/11/soccer-ball.jpg" class="img-circle img-responsive" alt="Responsive image" >
-        </div> 
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>About Me With Some Pictures</h1>
+      </div>
+    </div>
 
-        <div class="col-xs-3 col-sm-3 col-md-3">
-          <img src="http://netdna.walyou.netdna-cdn.com/wp-content/uploads//2013/10/A-bowl-of-rice.jpg" class="img-circle img-responsive" alt="Responsive image">
-        </div> 
+    <div class="row">
+      <div class="col-xs-12">
+        <h4>Short Biography</h4>
+      </div>
+    </div>
 
-        <div class="col-xs-3 col-sm-3 col-md-3">
-          <img src="http://upload.wikimedia.org/wikipedia/commons/f/fa/Noodle_pile_1.jpg" class="img-responsive" alt="Responsive image">
-        </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>My name is Tu Vu. Born and raise in South Vietnam. I'm currently attending Franklin High School as a Sophmore.  I love to play soccer also love to watch the sport.  I love to eat, especially rice and noodle(all types ^_^).  I enjoy coding because it fun to discover new things and it help for me as my dream job to be a computer technician.  I also love to play FIFA so if you want to have a challenging game, you can challenge me anytime.  My favorite subject in High School is math as I plan to take about 5 or more credits of math. So that all about me, below this is some picture that describe me.  I created this website because I want to prove my skills in coding and I like to learn new stuff.  My dream job is to become good with computer so I put alot of effort in trying out new things in this project.  The design of this website is based on two of my favourite colors that is red and pink and they also look nice together.  I started out in this class learning how to create a simple website with a heading then I moved on to styling and then javascript which was a bit confusing at first but it got easier with time.</p>
+      </div>
+    </div>  
 
-        <div class="col-xs-3 col-sm-3 col-md-3">
-          <img src="http://shellymoreauwritingediting.com/wp-content/uploads/2014/08/I-loveme.jpg" class="img-responsive" alt="Responsive image">
-        </div>
-      </div>  
+    <hr>
+
+   
+    <div class="row">
+      <div class="col-xs-6">      
+        <img src="img/food.png" class="img-circle img-responsive img-center">
+      </div>
+       <div class="col-xs-6">      
+        <img src="img/soccerball.png" class="img-circle img-responsive img-center">
+      </div>
+    </div>  
+
+      <br>
+
+    <div class="row">
+      <div class="col-xs-6">      
+        <img src="img/rsz_vietnam.png" class="img-circle img-responsive img-center">
+      </div>
+      <div class="col-xs-6">      
+        <img src="img/Mirosar10.png" class="img-circle img-responsive img-center">
+      </div>
+    </div>  
 
 
-     <div class="row">
-        <div class="col-xs-6 cole-sm-6 col-md-6">
-          <p>Fusce vestibulum elit tortor, vel tempor ex vestibulum ut. Morbi vestibulum diam augue, nec dignissim risus suscipit eget. Quisque sed laoreet tellus. In ut nisi convallis, venenatis mi eu, ultrices elit. Praesent vel nulla sapien. Aenean feugiat feugiat quam id vulputate. Suspendisse magna massa, congue id fringilla sed, iaculis quis diam.</p>
-        </div> 
+ 
 
-         <div class="col-xs-6 cole-sm-6 col-md-6">
-          <p>Aenean tempor ullamcorper turpis, sed scelerisque ex semper nec. Integer ac erat sed leo molestie commodo. Suspendisse tristique et metus non tempus. Nulla est ligula, pharetra in maximus at, commodo quis tortor. Duis ut pulvinar risus. In sit amet gravida felis, eu vestibulum dolor. Integer finibus vitae libero sodales commodo. Curabitur et euismod quam, eu vulputate lorem. Cras ac velit neque. Donec vitae eros pellentesque, ornare ligula ac, venenatis velit. Sed odio magna, euismod a lacus ut, gravida gravida leo. Cras convallis tincidunt ligula eu luctus.</p>
-        </div>   
+    </div> <!-- /.container-fluid -->
 
 
-
-
-    </div>   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>

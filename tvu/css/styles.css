@@ -1,0 +1,60 @@
+body {
+	background-color: pink;
+}
+
+hr {
+   border: 4px solid #C40F0F;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+	max-width: 337px;
+	max-height: 350px;
+	width: 100%;
+	height: auto;
+}
+
+.img-center:hover {
+	opacity: 0.8;
+}
+
+
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 1.42857143;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+}
+
+button {
+	line-height: 1.42857143;
+	margin-top: 9px;
+}
+
+.modal-body {
+	position: relative;
+	padding: 15px;
+}
+
+.form-control {
+	display: block;
+	width: 70%;
+	height: 34px;
+}
+
+div {
+	display: block;
+}
+
+h4 {
+	display: block;
+}
+
+.radio {
+	display: block;
+}
